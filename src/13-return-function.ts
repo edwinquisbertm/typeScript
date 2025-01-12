@@ -7,6 +7,10 @@
     return total.toString();
   }
 
-  const rta = calcTotal([10, 20, 30, 40, 50]);
-  console.log('total', rta);
+  const printTotal = (prices: number[]): void => {
+    const rta = calcTotal(prices);
+    console.log(`El total es: ${rta}`);
+  }
+
+  printTotal([10, 20, 30, 40, 50]);
 })();
