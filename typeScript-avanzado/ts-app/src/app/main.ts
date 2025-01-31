@@ -25,5 +25,6 @@ updateProduct(product.id, {
 });
 
 findProducts({
-  title: 'hola'
+  title: 'hola',
+  tags: ['hola'],
 });
